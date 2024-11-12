@@ -1,0 +1,86 @@
+ Excel/CSV File Comparison Tool 📊
+
+[Magyar verzió lejjebb található | Hungarian version below](#excel--csv-fájl-összehasonlító-eszköz-)
+
+## Description
+A powerful Python-based desktop application for comparing Excel (.xlsx) and CSV files. The tool provides a detailed comparison with visual indicators and comprehensive statistics about the differences between two files.
+
+### Key Features
+- Side-by-side comparison of Excel/CSV files
+- Visual highlighting of differences
+- Detailed statistics about changes
+- Support for both .xlsx and .csv formats
+- User-friendly GUI interface
+- Comprehensive comparison report generation
+
+## Requirements
+- Python 3.x
+- pandas
+- tkinter
+- openpyxl
+- numpy
+
+## Installation
+pip install pandas openpyxl numpy
+
+Usage
+	1.	Run the application
+	2.	Select source file (first file)
+	3.	Select target file (second file)
+	4.	Click "Compare" button
+	5.	Choose save location for the comparison report
+
+Output Features
+	•	Color Coding:
+	▪	🟥 Red: Deleted rows
+	▪	🟩 Green: New rows
+	▪	🟪 Purple: Partially matching rows
+	•	Statistics Sheet including:
+	▪	Total rows in source/target
+	▪	Matching rows count
+	▪	Partial matches count
+	▪	Column-wise differences
+
+License
+This project is open source and available under the MIT License. Feel free to use, modify, and distribute as needed.
+￼Excel / CSV Fájl Összehasonlító Eszköz 📊
+
+Leírás
+Egy hatékony Python alapú asztali alkalmazás Excel (.xlsx) és CSV fájlok összehasonlítására. Az eszköz részletes összehasonlítást biztosít vizuális jelölésekkel és átfogó statisztikával a fájlok közötti különbségekről.
+Főbb Funkciók
+	•	Excel/CSV fájlok párhuzamos összehasonlítása
+	•	Különbségek vizuális kiemelése
+	•	Részletes statisztikák
+	•	.xlsx és .csv formátumok támogatása
+	•	Felhasználóbarát grafikus felület
+	•	Átfogó összehasonlítási jelentés generálása
+Követelmények
+	•	Python 3.x
+	•	pandas
+	•	tkinter
+	•	openpyxl
+	•	numpy
+Telepítés
+
+pip install pandas openpyxl numpy
+Használat
+	1.	Alkalmazás indítása
+	2.	Forrás fájl kiválasztása (első fájl)
+	3.	Cél fájl kiválasztása (második fájl)
+	4.	"Összehasonlítás" gomb megnyomása
+	5.	Mentési hely kiválasztása az összehasonlítási jelentéshez
+Kimeneti Jellemzők
+	•	Színkódolás:
+	▪	🟥 Piros: Törölt sorok
+	▪	🟩 Zöld: Új sorok
+	▪	🟪 Lila: Részlegesen egyező sorok
+	•	Statisztikai Lap tartalma:
+	▪	Összes sor száma forrás/cél fájlban
+	▪	Egyező sorok száma
+	▪	Részleges egyezések száma
+	▪	Oszloponkénti eltérések
+Licenc
+Ez a projekt nyílt forráskódú és MIT Licenc alatt érhető el. Szabadon használható, módosítható és terjeszthető.
+Author
+Created by: M3NT1
+GitHub: M3NT1
